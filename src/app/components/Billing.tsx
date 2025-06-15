@@ -1,6 +1,6 @@
 import { Col, Divider, Row } from "antd";
 import check from "../../assets/images/check.png";
-import rightArrow from "../../assets/images/right.png";
+import arrow from "../../assets/images/right.png";
 import cross from "../../assets/images/cross.png";
 import React from "react";
 import Image from "next/image";
@@ -67,7 +67,7 @@ const Billing = () => {
               </li>
             </ul>
             <button>
-              Get started <Image src={rightArrow} alt="arrow" />{" "}
+              Get started <Image src={arrow} alt="arrow" />{" "}
             </button>
           </div>
         </Col>
@@ -118,7 +118,7 @@ const Billing = () => {
               </li>
             </ul>
             <button>
-              Get started <Image src={rightArrow} alt="arrow" />
+              Get started <Image src={arrow} alt="arrow" />
             </button>
           </div>
         </Col>
@@ -166,7 +166,7 @@ const Billing = () => {
               </li>
             </ul>
             <button>
-              Contact us <Image src={rightArrow} alt="arrow" />
+              Contact us <Image src={arrow} alt="arrow" />
             </button>
           </div>
         </Col>
