@@ -1,7 +1,7 @@
 import { Col, Divider, Row } from "antd";
-import check from "../../assets/images/check.png";
-import arrow from "../../assets/images/right.png";
-import cross from "../../assets/images/cross.png";
+import check from "../../../public/images/check.png";
+import arrow from "../../../public/images/right.png";
+import cross from "../../../public/images/cross.png";
 import React from "react";
 import Image from "next/image";
 
